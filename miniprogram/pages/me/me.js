@@ -13,6 +13,12 @@ Page({
     })
   },
 
+  onTapLogin(event){
+    this.setData({
+      userInfo: event.detail.userInfo,
+    })
+  },
+
   onTapAddress() {
     wx.showToast({
       icon: 'none',
