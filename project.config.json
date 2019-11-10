@@ -23,6 +23,7 @@
 	"libVersion": "2.9.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -63,6 +64,28 @@
 					"id": -1,
 					"name": "order",
 					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "cart",
+					"pathName": "pages/cart/cart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "add-review",
+					"pathName": "pages/add-review/add-review",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "review",
+					"pathName": "pages/review/review",
+					"query": "",
 					"scene": null
 				}
 			]
